@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">Hello UNJ</string>
+    <string name="home">HOME</string>
+    <string name="discusion">DISKUSI</string>
+    <string name="account">AKUN</string>
+    <string name="categoryImg">categoryImg</string>
+    <string name="category">Kategori</string>
+    <string name="search">search</string>
+    <string name="username">username</string>
+    <string name="login">Masuk</string>
+    <string name="email_address">email address</string>
+    <string name="password">Kata sandi</string>
+    <string name="jurusan">Jurusan</string>
+    <string name="imageinfo">imageInfo</string>
+    <string name="judulinfo">judulInfo</string>
+    <string name="writer">Writer</string>
+    <string name="date_and_time">date and time</string>
+    <string name="name">Nama</string>
+    <string name="e_mail">E-mail</string>
+    <string name="list_discussion">list discussion</string>
+    <string name="register">Register</string>
+    <string name="text">text</string>
+    <string name="categoryCaps">KATEGORI</string>
+    <string name="sliderimage">sliderImage</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="go_to_setting">go to setting</string>
+    <string name="logout">Keluar</string>
+    <string name="sign_in">Masuk</string>
+    <string name="sign_up">Daftar</string>
+    <string name="full_name">Nama lengkap</string>
+    <string name="re_type_password">Ulangi kata sandi</string>
+    <string name="sign_out">Keluar</string>
+    <string name="sudah_punya_akun">Sudah punya akun?</string>
+    <string name="masuk">Masuk</string>
+    <string name="tambahkan_foto">Tambahkan Foto</string>
+    <string name="choose">Choose</string>
+    <string name="Gallery">gallery</string>
+    <string name="Camera">camera</string>
+    <string name="this_is_admin_account">This is admin account</string>
+    <string name="manage_post">Manage</string>
+    <string name="author">Author</string>
+    <string name="isi_artikel">Isi Artikel</string>
+    <string name="judul_artikel">Judul Artikel</string>
+    <string name="date">date</string>
+    <string name="belum_ada_info_untuk_kategori_ini">Belum ada info untuk kategori ini</string>
+    <string name="belum_ada_info_sama_sekali">Belum ada info sama sekali</string>
+    <string name="send">send</string>
+    <string name="tambahkan_komen">Tambahkan komentar....</string>
+    <string name="belum_ada_komentar_jadilah_yang_pertama">belum ada komentar, jadilah yang pertama</string>
+    <string name="belum_ada_diskusi_jadilah_yang_pertama">Belum ada diskusi, jadilah yang pertama</string>
+    <string name="tambah_diskusi">Tambah diskusi</string>
+    <string name="apa_yang_kamu_pikirkan">Apa yang kamu pikirkan?</string>
+    <string name="cancel">CANCEL</string>
+    <string name="batal">batal</string>
+    <string name="login_untuk_berkomentar">Login untuk berkomentar !</string>
+    <string name="belum_ada_info_silahkan_tambahkan">Belum ada info, silahkan tambahkan (+)</string>
+    <string name="delete">Hapus</string>
+
+    <string-array name="jurusan">
+        <item>	Pendidikan Guru Sekolah Dasar (pgsd)	</item>
+        <item>	Usaha Jasa Pariwisata	</item>
+        <item>	Akuntansi	</item>
+        <item>	Sekretari	</item>
+        <item>	Manajemen Pemasaran	</item>
+        <item>	Hubungan Masyarakat	</item>
+        <item>	Transportasi	</item>
+        <item>	Teknik Elektronika	</item>
+        <item>	Teknik Sipil	</item>
+        <item>	Tata Busana	</item>
+        <item>	Teknik Mesin	</item>
+        <item>	Tata Boga	</item>
+        <item>	Tata Rias	</item>
+        <item>	Ppg Pendidikan Guru Sekolah Dasar	</item>
+        <item>	Pendidikan Seni Rupa	</item>
+        <item>	Ilmu Keolahragaan	</item>
+        <item>	Pendidikan Kepelatihan Olahraga	</item>
+        <item>	Pendidikan Biologi	</item>
+        <item>	Pendidikan Matematika	</item>
+        <item>	Pendidikan Tata Boga	</item>
+        <item>	Pendidikan Tata Busana	</item>
+        <item>	Pendidikan Tata Rias	</item>
+        <item>	Pendidikan Bahasa Jepang	</item>
+        <item>	Pendidikan Guru Sekolah Dasar	</item>
+        <item>	Pendidikan Kesejahteraan Keluarga	</item>
+        <item>	Sastra Indonesia	</item>
+        <item>	Pendidikan Bahasa Perancis	</item>
+        <item>	Akuntansi	</item>
+        <item>	Teknologi Pendidikan	</item>
+        <item>	Pendidikan Pancasila Dan Kewarganegaraan	</item>
+        <item>	Pendidikan Teknik Bangunan	</item>
+        <item>	Sastra Inggris	</item>
+        <item>	Pendidikan Geografi	</item>
+        <item>	Pendidikan Bahasa Jerman	</item>
+        <item>	Pendidikan Bahasa Inggris	</item>
+        <item>	Pendidikan Teknik Elektro	</item>
+        <item>	Pendidikan Teknik Mesin	</item>
+        <item>	Pendidikan Fisika	</item>
+        <item>	Pendidikan Kimia	</item>
+        <item>	Pendidikan Bahasa Arab	</item>
+        <item>	Pendidikan Tata Niaga	</item>
+        <item>	Pendidikan Teknik Informatika Dan Komputer	</item>
+        <item>	Pendidikan Ips	</item>
+        <item>	Manajemen	</item>
+        <item>	Pendidikan Bahasa Dan Sastra Indonesia	</item>
+        <item>	Pendidikan Ekonomi	</item>
+        <item>	Pendidikan Sejarah	</item>
+        <item>	Sistem Komputer	</item>
+        <item>	Psikologi	</item>
+        <item>	Pendidikan Luar Biasa	</item>
+        <item>	Bimbingan Dan Konseling	</item>
+        <item>	Pendidikan Guru Pendidikan Anak Usia Dini	</item>
+        <item>	Manajemen Pendidikan	</item>
+        <item>	Pendidikan Luar Sekolah	</item>
+        <item>	Matematika	</item>
+        <item>	Fisika	</item>
+        <item>	Kimia	</item>
+        <item>	Biologi	</item>
+        <item>	Pendidikan Teknik Elektronika	</item>
+        <item>	Ilmu Agama Islam	</item>
+        <item>	Pendidikan Sosiologi	</item>
+        <item>	Sosiologi	</item>
+        <item>	Pendidikan Jasmani, Kesehatan Dan Rekreasi	</item>
+        <item>	Pendidikan Seni Musik	</item>
+        <item>	Seni Tari	</item>
+        <item>	Pendidikan Anak Usia Dini	</item>
+        <item>	Pendidikan Kimia	</item>
+        <item>	Pendidikan Biologi	</item>
+        <item>	Pendidikan Matematika	</item>
+        <item>	Pendidikan Dasar	</item>
+        <item>	Pendidikan Bahasa	</item>
+        <item>	Teknologi Pendidikan	</item>
+        <item>	Pendidikan Olahraga	</item>
+        <item>	Pendidikan Sejarah	</item>
+        <item>	Pendidikan Kependudukan Dan Lingkungan Hidup	</item>
+        <item>	Pendidikan Teknologi Dan Kejuruan	</item>
+        <item>	Pendidikan Fisika	</item>
+        <item>	Pendidikan Bahasa Inggris	</item>
+        <item>	Administrasi Pendidikan	</item>
+        <item>	Manajemen	</item>
+        <item>	Manajemen Lingkungan	</item>
+        <item>	Pendidikan Anak Usia Dini	</item>
+        <item>	Linguistik Terapan	</item>
+        <item>	Pendidikan Olah Raga	</item>
+        <item>	Penelitian Dan Evaluasi Pendidikan	</item>
+        <item>	Ilmu Manajemen	</item>
+        <item>	Pendidikan Olahraga	</item>
+        <item>	Manajemen Pendidikan	</item>
+        <item>	Teknologi Pendidikan	</item>
+        <item>	Ilmu Pendidikan Bahasa	</item>
+        <item>	Pendidikan Kependudukan Dan Lingkungan Hidup	</item>
+        <item>	Penelitian Dan Evaluasi Pendidikan	</item>
+    </string-array>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ProgressBar
+        android:id="@+id/progressbarHomeLoading"
+        style="@android:style/Widget.ProgressBar.Inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/textNoData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/belum_ada_komentar_jadilah_yang_pertama"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerPopUpComment"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/comment_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        >
+
+
+        <EditText
+            android:id="@+id/etPopUpComment"
+            android:hint="@string/tambahkan_komen"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:maxLines="2"
+            android:focusable="true"
+            android:layout_marginStart="5dp"
+            android:textSize="12sp"
+            android:background="#00000000"/>
+        <ImageButton
+            android:id="@+id/btnPopUpSend"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_send"
+            android:background="#00ffffff"
+            android:contentDescription="@string/send" />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/notLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_untuk_berkomentar"
+        android:layout_alignParentBottom="true"
+        android:minHeight="50dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center" />
+
+</RelativeLayout>

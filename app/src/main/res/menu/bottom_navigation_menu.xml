@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:state_checked="true"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_category"
+        android:state_checked="true"
+        android:title="@string/categoryCaps"
+        android:icon="@drawable/ic_category"
+        app:showAsAction="ifRoom" />
+ <!--   <item
+        android:id="@+id/action_discus"
+        android:state_checked="false"
+        android:title="@string/discusion"
+        android:icon="@drawable/ic_discussion"
+        app:showAsAction="ifRoom" />-->
+    <item
+        android:id="@+id/action_account"
+        android:state_checked="false"
+        android:title="@string/account"
+        android:icon="@drawable/ic_account"
+        app:showAsAction="ifRoom" />
+</menu>

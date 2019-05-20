@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageDiscussionProfile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@mipmap/ic_launcher_round"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearDicussionLayout"
+            android:layout_toEndOf="@+id/imageDiscussionProfile"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textDiscussionName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textSize="16sp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_marginStart="5dp"/>
+            <TextView
+                android:id="@+id/textDiscussionDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date"
+                android:textSize="12sp"
+                android:layout_marginStart="5dp"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textDiscussionJurusan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jurusan"
+            android:textColor="@color/colorRed"
+            android:textSize="12sp"
+            android:layout_below="@id/linearDicussionLayout"
+            android:layout_toEndOf="@+id/imageDiscussionProfile"
+            android:layout_marginStart="5dp"/>
+        <TextView
+            android:id="@+id/textDiscussionIsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text"
+            android:layout_below="@id/textDiscussionJurusan"
+            android:padding="10dp"/>
+    </RelativeLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progressbarHomeLoading"
+        style="@android:style/Widget.ProgressBar.Inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/textNoData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/belum_ada_komentar_jadilah_yang_pertama"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/relDetail"
+        android:background="#49000000"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/relDetail"
+        android:id="@+id/recyclerPopUpComment"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/notLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_untuk_berkomentar"
+        android:layout_alignParentBottom="true"
+        android:minHeight="50dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center" />
+    <LinearLayout
+        android:id="@+id/comment_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        >
+
+
+        <EditText
+            android:id="@+id/etPopUpComment"
+            android:hint="@string/tambahkan_komen"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:maxLines="2"
+            android:focusable="true"
+            android:layout_marginStart="5dp"
+            android:textSize="12sp"
+            android:background="#00000000"/>
+        <ImageButton
+            android:id="@+id/btnPopUpSend"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_send"
+            android:background="#00ffffff"
+            android:contentDescription="@string/send" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
